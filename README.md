@@ -19,7 +19,7 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 # 项目运行方式
 1、配置要求：要求配置neo4j数据库及相应的python依赖包。neo4j数据库用户名密码记住，并修改相应文件。  
 2、知识图谱数据导入：python build_medicalgraph.py，导入的数据较多，估计需要几个小时。  
-3、启动问答：python chat_graph.py
+3、启动问答：python chatbot_graph.py
 
 # 以下介绍详细方案
 # 一、医疗知识图谱构建
@@ -27,7 +27,7 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 ![image](https://github.com/liuhuanyong/QABasedOnMedicalKnowledgeGraph/blob/master/img/kg_route.png)
 
 # 1.2 脚本目录
-prepare_data/datasoider.py：网络资讯采集脚本  
+prepare_data/data_speder.py (datasoider.py)：网络资讯采集脚本
 prepare_data/datasoider.py：网络资讯采集脚本  
 prepare_data/max_cut.py：基于词典的最大向前/向后切分脚本  
 build_medicalgraph.py：知识图谱入库脚本    　　
